@@ -59,5 +59,7 @@ namespace Zameedaar
             BlockChain dataContractDetail = (BlockChain)jsonSerializer.ReadObject(stream);
             return dataContractDetail;
         }
+
+
     }
 }

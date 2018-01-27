@@ -1,0 +1,6 @@
+c:\users\shubham\source\repos\Zamedaar_initializer\Zamedaar_initializer\bin\Debug\Zamedaar_initializer.exe.config
+c:\users\shubham\source\repos\Zamedaar_initializer\Zamedaar_initializer\bin\Debug\Zamedaar_initializer.exe
+c:\users\shubham\source\repos\Zamedaar_initializer\Zamedaar_initializer\bin\Debug\Zamedaar_initializer.pdb
+c:\users\shubham\source\repos\Zamedaar_initializer\Zamedaar_initializer\obj\Debug\Zamedaar_initializer.csproj.CoreCompileInputs.cache
+c:\users\shubham\source\repos\Zamedaar_initializer\Zamedaar_initializer\obj\Debug\Zamedaar_initializer.exe
+c:\users\shubham\source\repos\Zamedaar_initializer\Zamedaar_initializer\obj\Debug\Zamedaar_initializer.pdb
