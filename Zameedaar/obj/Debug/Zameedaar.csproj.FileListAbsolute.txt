@@ -1,0 +1,17 @@
+C:\Users\Shubham\source\repos\Zameedaar\Zameedaar\bin\Debug\Zameedaar.exe.config
+C:\Users\Shubham\source\repos\Zameedaar\Zameedaar\bin\Debug\Zameedaar.exe
+C:\Users\Shubham\source\repos\Zameedaar\Zameedaar\bin\Debug\Zameedaar.pdb
+C:\Users\Shubham\source\repos\Zameedaar\Zameedaar\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Shubham\source\repos\Zameedaar\Zameedaar\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Shubham\source\repos\Zameedaar\Zameedaar\obj\Debug\Zameedaar.csprojResolveAssemblyReference.cache
+C:\Users\Shubham\source\repos\Zameedaar\Zameedaar\obj\Debug\MainWindow.g.cs
+C:\Users\Shubham\source\repos\Zameedaar\Zameedaar\obj\Debug\App.g.cs
+C:\Users\Shubham\source\repos\Zameedaar\Zameedaar\obj\Debug\Zameedaar_MarkupCompile.cache
+C:\Users\Shubham\source\repos\Zameedaar\Zameedaar\obj\Debug\Zameedaar_MarkupCompile.lref
+C:\Users\Shubham\source\repos\Zameedaar\Zameedaar\obj\Debug\MainWindow.baml
+C:\Users\Shubham\source\repos\Zameedaar\Zameedaar\obj\Debug\Zameedaar.g.resources
+C:\Users\Shubham\source\repos\Zameedaar\Zameedaar\obj\Debug\Zameedaar.Properties.Resources.resources
+C:\Users\Shubham\source\repos\Zameedaar\Zameedaar\obj\Debug\Zameedaar.csproj.GenerateResource.Cache
+C:\Users\Shubham\source\repos\Zameedaar\Zameedaar\obj\Debug\Zameedaar.csproj.CoreCompileInputs.cache
+C:\Users\Shubham\source\repos\Zameedaar\Zameedaar\obj\Debug\Zameedaar.exe
+C:\Users\Shubham\source\repos\Zameedaar\Zameedaar\obj\Debug\Zameedaar.pdb
