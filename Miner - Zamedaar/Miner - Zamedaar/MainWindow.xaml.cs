@@ -42,6 +42,7 @@ namespace Miner___Zamedaar
             JObject rss = JObject.Parse(response);
             string index = (string)rss["index"];
             tbConsole.AppendText("Block with index " + index + " is added to the chain");
+            tbminerid.Text = getMinerId(_GetRequest(chainURL));
 
         }
 
@@ -79,6 +80,51 @@ namespace Miner___Zamedaar
             {
                 return reader.ReadToEnd();
             }
+        }
+
+        private void btnAmount_Click(object sender, RoutedEventArgs e)
+        {
+            int amountTotal = 0;
+
+            JObject rss = JObject.Parse(_GetRequest(chainURL));
+            JArray blocks = (JArray)rss["chain"];
+            foreach (JObject arr in blocks)
+            {
+                JArray transactions = (JArray)arr["transactions"];
+                foreach (JObject transaction in transactions)
+                {
+                    if ((string)transaction["recipient"] == tbminerid.Text)
+                    {
+                        amountTotal += (int)transaction["amount"];
+                    }
+                   
+                }
+            }
+            MessageBox.Show(amountTotal.ToString());
+
+        }
+        private string getMinerId(string blockchain)
+        {
+
+            string recepient = "";
+
+            JObject rss = JObject.Parse(_GetRequest(chainURL));
+            JArray blocks = (JArray)rss["chain"];
+            foreach (JObject arr in blocks)
+            {
+                JArray transactions = (JArray)arr["transactions"];
+                foreach (JObject transaction in transactions)
+                {
+                    recepient = (string)transaction["recipient"];
+                }
+            }
+
+            return recepient;
+        }
+
+        private void btnViewChain_Click(object sender, RoutedEventArgs e)
+        {
+            tbChain.Text = _GetRequest(chainURL);
         }
     }
 }

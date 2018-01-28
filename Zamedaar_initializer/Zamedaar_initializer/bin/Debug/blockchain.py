@@ -120,20 +120,21 @@ class Blockchain:
         self.chain.append(block)
         return block
 
-    def new_transaction(self, sender, recipient, amount):
+    def new_transaction(self, sender, recipient, landID, amount):
         """
         Creates a new transaction to go into the next mined Block
 
         :param sender: Address of the Sender
         :param recipient: Address of the Recipient
-        :param amount: Amount
+        :param landID: landID
         :return: The index of the Block that will hold this transaction
         """
         self.current_transactions.append({
-            'sender': sender,
-            'recipient': recipient,
-            'amount': amount,
-        })
+					'sender': sender,
+					'recipient': recipient,
+					'landID': landID,
+					'amount': amount,
+				})
 
         return self.last_block['index'] + 1
 
@@ -211,6 +212,7 @@ def mine():
     blockchain.new_transaction(
         sender="0",
         recipient=node_identifier,
+		landID=None,
         amount=1,
     )
 
@@ -233,12 +235,12 @@ def new_transaction():
     values = request.get_json()
 
     # Check that the required fields are in the POST'ed data
-    required = ['sender', 'recipient', 'amount']
+    required = ['sender', 'recipient', 'landID']
     if not all(k in values for k in required):
         return 'Missing values', 400
 
     # Create a new Transaction
-    index = blockchain.new_transaction(values['sender'], values['recipient'], values['amount'])
+    index = blockchain.new_transaction(sender=values['sender'], recipient=values['recipient'], landID=values['landID'], amount = None)
 
     response = {'message': f'Transaction will be added to Block {index}'}
     return jsonify(response), 201
@@ -298,3 +300,5 @@ if __name__ == '__main__':
     port = args.port
 
     app.run(host='0.0.0.0', port=port)
+
+			

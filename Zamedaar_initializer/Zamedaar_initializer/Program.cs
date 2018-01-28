@@ -70,7 +70,7 @@ namespace Zamedaar_initializer
 
         private static string sellStringMaker(string sender, string recepient, string landID)
         {
-            return "{ \"recipient\": \"" + recepient + "\", \"sender\": \"" + sender + " \", \"amount\": " + landID + " }";
+            return "{ \"recipient\": \"" + recepient + "\", \"sender\": \"" + sender + " \", \"landID\": " + landID + " }";
 
         }
     }

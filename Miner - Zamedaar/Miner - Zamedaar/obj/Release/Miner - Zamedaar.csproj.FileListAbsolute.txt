@@ -1,0 +1,16 @@
+C:\Users\Shubham\source\repos\Miner - Zamedaar\Miner - Zamedaar\bin\Release\Miner - Zamedaar.exe.config
+C:\Users\Shubham\source\repos\Miner - Zamedaar\Miner - Zamedaar\bin\Release\Miner - Zamedaar.exe
+C:\Users\Shubham\source\repos\Miner - Zamedaar\Miner - Zamedaar\bin\Release\Miner - Zamedaar.pdb
+C:\Users\Shubham\source\repos\Miner - Zamedaar\Miner - Zamedaar\bin\Release\Newtonsoft.Json.dll
+C:\Users\Shubham\source\repos\Miner - Zamedaar\Miner - Zamedaar\bin\Release\Newtonsoft.Json.xml
+C:\Users\Shubham\source\repos\Miner - Zamedaar\Miner - Zamedaar\obj\Release\MainWindow.g.cs
+C:\Users\Shubham\source\repos\Miner - Zamedaar\Miner - Zamedaar\obj\Release\App.g.cs
+C:\Users\Shubham\source\repos\Miner - Zamedaar\Miner - Zamedaar\obj\Release\Miner - Zamedaar_MarkupCompile.cache
+C:\Users\Shubham\source\repos\Miner - Zamedaar\Miner - Zamedaar\obj\Release\Miner - Zamedaar_MarkupCompile.lref
+C:\Users\Shubham\source\repos\Miner - Zamedaar\Miner - Zamedaar\obj\Release\MainWindow.baml
+C:\Users\Shubham\source\repos\Miner - Zamedaar\Miner - Zamedaar\obj\Release\Miner - Zamedaar.g.resources
+C:\Users\Shubham\source\repos\Miner - Zamedaar\Miner - Zamedaar\obj\Release\Miner___Zamedaar.Properties.Resources.resources
+C:\Users\Shubham\source\repos\Miner - Zamedaar\Miner - Zamedaar\obj\Release\Miner - Zamedaar.csproj.GenerateResource.Cache
+C:\Users\Shubham\source\repos\Miner - Zamedaar\Miner - Zamedaar\obj\Release\Miner - Zamedaar.csproj.CoreCompileInputs.cache
+C:\Users\Shubham\source\repos\Miner - Zamedaar\Miner - Zamedaar\obj\Release\Miner - Zamedaar.exe
+C:\Users\Shubham\source\repos\Miner - Zamedaar\Miner - Zamedaar\obj\Release\Miner - Zamedaar.pdb
