@@ -1,1 +1,1 @@
-We are developing a service/app to keep the record of the owners, transactions of lands using Block Chain technology.
+SpiderUnleashed is a webcrawler that retrieves the non-pdf results from educational websites because pdfs are easily available on Google Scholar.
